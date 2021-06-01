@@ -1,0 +1,161 @@
+#backgroundImage {
+    background-image: url(backgroud.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    backdrop-filter: blur(2px);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+img {
+    border-radius: 50%;
+    width: 30%;
+    margin: auto;    
+    margin-bottom: 5%;
+    margin-top: 20%;
+    display: block;
+}
+.item-list {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 30px;
+    display: block;
+    padding: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgb(13 13 13 / 40%);
+    color: #524f4e;
+    font-family: 'Montserrat', sans-serif;
+    transition: .3s;
+}
+
+.item-list:hover {
+    background: #66B1F2;
+    box-shadow: 0px 15px 20px rgba(102, 177, 242, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+ }
+
+.instagram-sign {
+    font-size: 3vh;
+    display: block;
+    padding: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
+
+.h-70 {
+    height: 70%;
+}
+
+a {
+    text-decoration: none;
+}
+/* 
+.telegram::before {
+    display: block;
+    content: url(telegram.svg);
+    background-size: 28px 28px;
+    height: 28px;
+    width: 28px;
+} */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    img {
+        width: 100%;
+        margin-bottom: 2vh;
+        margin-top: 15vh;
+    }
+
+    .instagram-sign {
+        font-size: 2vh;
+        margin-bottom: 40px;
+        line-height: 26px;
+    }
+    
+    .item-list {
+        color: black;
+        text-decoration: none;
+        border-radius: 50px;
+        line-height: 3vh;
+        font-size: 2vh;
+        margin-bottom: 2vh;
+        height: 5vh;
+        padding: 1vh;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    img {
+        width: 100%;
+        margin-bottom: 2vh;
+        margin-top: 15vh;
+    }
+
+    .instagram-sign {
+        font-size: 2vh;
+        margin-bottom: 40px;
+        line-height: 26px;
+    }
+    
+    .item-list {
+        color: black;
+        text-decoration: none;
+        border-radius: 50px;
+        line-height: 3vh;
+        font-size: 2vh;
+        margin-bottom: 2vh;
+        height: 5vh;
+        padding: 1vh;
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    img {
+        width: 100%;
+        margin-bottom: 2vh;
+        margin-top: 15vh;
+    }
+
+    .instagram-sign {
+        font-size: 3vh;
+        margin-bottom: 40px;
+        line-height: 26px;
+    }
+    
+    .item-list {
+        color: black;
+        text-decoration: none;
+        border-radius: 50px;
+        line-height: 3vh;
+        font-size: 2vh;
+        margin-bottom: 2vh;
+        height: 5vh;
+        padding: 1vh;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    img {
+        width: 100%;
+        margin-bottom: 2vh;
+        margin-top: 15vh;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    img {
+        width: 30%;
+    }
+}
